@@ -1,0 +1,35 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv'
+WARN  (EX3665) : Event control in always_comb/always_latch is not allowed("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":64)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\CRC32.sv'
+WARN  (EX2810) : Extra semicolon in $unit (global) scope("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\CRC32.sv":3)
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\riscv_ae350_soc\riscv_ae350_soc.v'
+Compiling module 'RiscV_AE350_SOC_Top'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\riscv_ae350_soc\riscv_ae350_soc.v":57972)
+Compiling module '**'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\riscv_ae350_soc\riscv_ae350_soc.v":57971)
+Compiling module 'AHB_slave'("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":1)
+WARN  (EX3780) : Using initial value of 'result' since it is never assigned("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":25)
+WARN  (EX2420) : Latch inferred for net 'EXTS_HRDATA[31]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":64)
+WARN  (EX3101) : 'EXTS_HRDATA' inside always_comb block does not represent combinational logic("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":64)
+NOTE  (EX0101) : Current top module is "RiscV_AE350_SOC_Top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'EXTS_HRDATA[31]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":64)
+WARN  (DI0003) : Latch inferred for net 'EXTS_HRDATA[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\src\AHB_slave.sv":64)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\impl\gwsynthesis\CRC32.vg" completed
+[100%] Generate report file "C:\Gowin\Gowin_V1.9.11.02_x64\IDE\bin\Documents\CRC32\impl\gwsynthesis\CRC32_syn.rpt.html" completed
+GowinSynthesis finish

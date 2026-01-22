@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/CRC32.sv",
+  "InstLine" : 1,
+  "InstName" : "CRC32",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/CRC32.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "CRC32"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+  "InstLine" : 57972,
+  "InstName" : "RiscV_AE350_SOC_Top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+  "ModuleLine" : 57972,
+  "ModuleName" : "RiscV_AE350_SOC_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+    "InstLine" : 58135,
+    "InstName" : "u_RiscV_AE350_SOC",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+    "ModuleLine" : 18,
+    "ModuleName" : "RiscV_AE350_SOC"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+    "InstLine" : 58199,
+    "InstName" : "u_AHB_slave",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/AHB_slave.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "AHB_slave"
+   }
+  ]
+ }
+]

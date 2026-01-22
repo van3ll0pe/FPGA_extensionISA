@@ -1,0 +1,25 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/AHB_slave.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/CRC32.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/src/riscv_ae350_soc/riscv_ae350_soc.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Gowin/Gowin_V1.9.11.02_x64/IDE/bin/Documents/CRC32/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
